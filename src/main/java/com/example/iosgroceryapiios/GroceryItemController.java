@@ -14,19 +14,19 @@ public class GroceryItemController {
 
     //http://localhost:8080/allitems
     @GetMapping("/groceryitems")
-    public OuterClass GetItems() throws IOException {
+    public OuterClass GetItems()  {
 
 
         List<GroceryItem> AllGroceryItems = new ArrayList<>();
         AddAllItems(AllGroceryItems);
         Result results=new Result("groceryitems",AllGroceryItems);
-        OuterClass outerClass=new OuterClass("OK", AllGroceryItems.size(), "Grocery Inventory for ios app",results,"Greg Garman");
+        return new OuterClass("OK", AllGroceryItems.size(), "Grocery Inventory for ios app",results,"Greg Garman");
 
-        return outerClass;
     }
 
-    private void AddAllItems(List<GroceryItem> AllGroceryItems) throws IOException {
+    private void AddAllItems(List<GroceryItem> AllGroceryItems)  {
 
+        /*
         Reader in = new BufferedReader(new FileReader("src/main/java/com/example/iosgroceryapiios/GroceryDetails.txt"));
 
 
@@ -64,11 +64,11 @@ public class GroceryItemController {
             }
 
         }
+*/
 
 
-
-        //  AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012188-600x600-A.jpg","Orange"));
-        //   AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012057-600x600-A.jpg","Lemon Lime"));
+          AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012188-600x600-A.jpg","Orange"));
+           AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012057-600x600-A.jpg","Lemon Lime"));
         //    AllGroceryItems.add(new GroceryItem("Soup","https://cutpcdnwimages.azureedge.net/images/products/875000/878606-600x600-A.jpg","Chicken and Sausage Gumbo"));
         // AllGroceryItems.add(new GroceryItem("","",""));
 
