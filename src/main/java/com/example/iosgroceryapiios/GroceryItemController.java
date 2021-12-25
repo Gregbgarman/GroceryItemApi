@@ -13,8 +13,9 @@ import java.util.List;
 public class GroceryItemController {
 
     //http://localhost:8080/groceryitems
+    //https://iosgroceryapi.azurewebsites.net/groceryitems
     @GetMapping("/groceryitems")
-    public OuterClass GetItems() throws IOException  {
+    public OuterClass GetItems()   {
         List<GroceryItem> AllGroceryItems = new ArrayList<>();
         AddAllItems(AllGroceryItems);
         Result results=new Result("groceryitems",AllGroceryItems);
@@ -22,8 +23,8 @@ public class GroceryItemController {
 
     }
 
-    private void AddAllItems(List<GroceryItem> AllGroceryItems) throws IOException  {
-
+    private void AddAllItems(List<GroceryItem> AllGroceryItems)   {
+/*
         Reader in = new BufferedReader(new FileReader("src/main/java/com/example/iosgroceryapiios/GroceryDetails.txt"));
         int inread;
         String str = "";
@@ -59,6 +60,19 @@ public class GroceryItemController {
             }
 
         }
+        */
+
+        AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012188-600x600-A.jpg","Orange"));
+        AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012188-600x600-A.jpg","Orange"));
+        AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012188-600x600-A.jpg","Orange"));
+        AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012188-600x600-A.jpg","Orange"));
+        AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012188-600x600-A.jpg","Orange"));
+        AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012188-600x600-A.jpg","Orange"));
+        AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012188-600x600-A.jpg","Orange"));
+        AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012188-600x600-A.jpg","Orange"));
+        AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012188-600x600-A.jpg","Orange"));
+
+
 
     }
 
