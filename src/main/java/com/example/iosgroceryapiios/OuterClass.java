@@ -11,10 +11,9 @@ public class OuterClass {
         this.status = status;
         this.num_results = num_results;
         this.description = description;
-        this.results = results;
         this.CreatedBy = CreatedBy;
+        this.results = results;
     }
-
 
 
     public String getStatus() {

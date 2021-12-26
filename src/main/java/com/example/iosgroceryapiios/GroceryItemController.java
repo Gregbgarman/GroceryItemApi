@@ -25,18 +25,23 @@ public class GroceryItemController {
 
     private void AddAllItems(List<GroceryItem> AllGroceryItems)   {     //file io would not work when deployed to azure...so here's a lot of adding items
 
-        AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012188-600x600-A.jpg","Orange"));
-        AllGroceryItems.add(new GroceryItem("Soup","https://cutpcdnwimages.azureedge.net/images/products/875000/878606-600x600-A.jpg","Chicken and Sausage Gumbo"));
-        AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012057-600x600-A.jpg","Lemon Lime"));
-        AllGroceryItems.add(new GroceryItem("Soup","https://cutpcdnwimages.azureedge.net/images/products/230000/234797-600x600-A.jpg","Chili Mac"));
-        AllGroceryItems.add(new GroceryItem("Hummus","https://cutpcdnwimages.azureedge.net/images/products/885000/885831-600x600-A.jpg"," "));
-        AllGroceryItems.add(new GroceryItem("Honey Nut Cheerios","https://cutpcdnwimages.azureedge.net/images/products/5000/008647-600x600-A.jpg"," "));
-        AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012632-600x600-A.jpg","Frost-Glacier Freeze"));
-        AllGroceryItems.add(new GroceryItem("Pomegranate Juice","https://cutpcdnwimages.azureedge.net/images/products/20000/023033-600x600-A.jpg"," "));
         AllGroceryItems.add(new GroceryItem("Avocados","https://cutpcdnwimages.azureedge.net/images/products/255000/255234-600x600-A.jpg"," "));
+        AllGroceryItems.add(new GroceryItem("Cereal","https://cutpcdnwimages.azureedge.net/images/products/5000/008647-600x600-A.jpg","Honey Nut Cheerios"));
+        AllGroceryItems.add(new GroceryItem("Cereal","https://cutpcdnwimages.azureedge.net/images/products/10000/010082-600x600-A.jpg","Apple Jacks"));
+        AllGroceryItems.add(new GroceryItem("Cereal","https://cutpcdnwimages.azureedge.net/images/products/5000/008473-600x600-A.jpg","Frosted Flakes"));
         AllGroceryItems.add(new GroceryItem("Cherry Juice","https://cutpcdnwimages.azureedge.net/images/products/310000/312027-600x600-A.jpg"," "));
-        AllGroceryItems.add(new GroceryItem("Kale","https://cutpcdnwimages.azureedge.net/images/products/245000/247461-600x600-A.jpg"," "));
+        AllGroceryItems.add(new GroceryItem("Chips","https://cutpcdnwimages.azureedge.net/images/products/865000/867669-600x600-A.jpg","Cheddar and Sour Cream"));
+        AllGroceryItems.add(new GroceryItem("Chips","https://cutpcdnwimages.azureedge.net/images/products/865000/867963-600x600-A.jpg","Jalapeno"));
+        AllGroceryItems.add(new GroceryItem("Chips","https://cutpcdnwimages.azureedge.net/images/products/310000/312672-600x600-A.jpg","Spicy Sweet Chili"));
+        AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012188-600x600-A.jpg","Orange"));
+        AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012057-600x600-A.jpg","Lemon Lime"));
+        AllGroceryItems.add(new GroceryItem("Gatorade","https://cutpcdnwimages.azureedge.net/images/products/10000/012632-600x600-A.jpg","Frost-Glacier Freeze"));
         AllGroceryItems.add(new GroceryItem("Green Tea","https://cutpcdnwimages.azureedge.net/images/products/370000/370995-600x600-A.jpg"," "));
+        AllGroceryItems.add(new GroceryItem("Hummus","https://cutpcdnwimages.azureedge.net/images/products/885000/885831-600x600-A.jpg"," "));
+        AllGroceryItems.add(new GroceryItem("Kale","https://cutpcdnwimages.azureedge.net/images/products/245000/247461-600x600-A.jpg"," "));
+        AllGroceryItems.add(new GroceryItem("Pomegranate Juice","https://cutpcdnwimages.azureedge.net/images/products/20000/023033-600x600-A.jpg"," "));
+        AllGroceryItems.add(new GroceryItem("Soup","https://cutpcdnwimages.azureedge.net/images/products/875000/878606-600x600-A.jpg","Chicken and Sausage Gumbo"));
+        AllGroceryItems.add(new GroceryItem("Soup","https://cutpcdnwimages.azureedge.net/images/products/230000/234797-600x600-A.jpg","Chili Mac"));
 
 
     }
