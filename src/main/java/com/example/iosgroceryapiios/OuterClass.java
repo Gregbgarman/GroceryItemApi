@@ -4,8 +4,8 @@ public class OuterClass {
     private String status;
     private int num_results;
     private String description;
-    private Result results;
     private String CreatedBy;
+    private Result results;
 
     public OuterClass(String status, int num_results, String description, Result results,String CreatedBy) {
         this.status = status;
