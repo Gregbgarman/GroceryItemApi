@@ -7,7 +7,7 @@ public class OuterClass {
     private String CreatedBy;
     private Result results;
 
-    public OuterClass(String status, int num_results, String description, Result results,String CreatedBy) {
+    public OuterClass(String status, int num_results, String description, String CreatedBy,Result results) {
         this.status = status;
         this.num_results = num_results;
         this.description = description;

@@ -2,13 +2,23 @@ package com.example.iosgroceryapiios;
 
 public class GroceryItem {
     private String item_name;
+    private String item_category;
     private String image_url;
     private String item_note;
 
-    public GroceryItem(String item_name, String image_url, String item_note) {
+    public GroceryItem(String item_name,String item_category, String image_url, String item_note) {
         this.item_name = item_name;
+        this.item_category=item_category;
         this.image_url = image_url;
         this.item_note = item_note;
+    }
+
+    public String getItem_category() {
+        return item_category;
+    }
+
+    public void setItem_category(String item_category) {
+        this.item_category = item_category;
     }
 
     public String getItem_name() {
