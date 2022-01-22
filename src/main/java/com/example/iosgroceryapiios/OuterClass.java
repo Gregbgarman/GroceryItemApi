@@ -40,14 +40,6 @@ public class OuterClass {
         this.description = description;
     }
 
-    public Result getResults() {
-        return results;
-    }
-
-    public void setResults(Result results) {
-        this.results = results;
-    }
-
     public String getCreatedBy() {
         return CreatedBy;
     }
@@ -56,5 +48,12 @@ public class OuterClass {
         CreatedBy = createdBy;
     }
 
+    public Result getResults() {
+        return results;
+    }
+
+    public void setResults(Result results) {
+        this.results = results;
+    }
 
 }

@@ -27,6 +27,7 @@ public class GroceryItemController {
 
         AllGroceryItems.add(new GroceryItem("Avocados","Produce","https://cutpcdnwimages.azureedge.net/images/products/255000/255234-600x600-A.jpg"," "));
         AllGroceryItems.add(new GroceryItem("Bacon","Breakfast","https://cutpcdnwimages.azureedge.net/images/products/70000/070797-600x600-A.jpg","Not already cooked"));
+        AllGroceryItems.add(new GroceryItem("Bagels","Breakfast","https://cutpcdnwimages.azureedge.net/images/products/780000/781074-600x600-A.jpg","Cinnamon Raisin"));
         AllGroceryItems.add(new GroceryItem("Bananas","Produce","https://cutpcdnwimages.azureedge.net/images/products/20000/024008-600x600-A.jpg"," "));
         AllGroceryItems.add(new GroceryItem("Bread","Sandwich","https://cutpcdnwimages.azureedge.net/images/products/785000/787075-600x600-A.jpg","Arnold Whole Wheat"));
         AllGroceryItems.add(new GroceryItem("Carrots","Produce","https://cutpcdnwimages.azureedge.net/images/products/20000/024277-600x600-A.jpg"," "));
@@ -59,6 +60,7 @@ public class GroceryItemController {
         AllGroceryItems.add(new GroceryItem("Coffee","Drinks","https://cutpcdnwimages.azureedge.net/images/products/5000/008854-600x600-A.jpg","Whole Bean "));
         AllGroceryItems.add(new GroceryItem("Coffee","Drinks","https://cutpcdnwimages.azureedge.net/images/products/180000/184254-600x600-A.jpg","Whole Bean "));
         AllGroceryItems.add(new GroceryItem("Coffee","Drinks","https://cutpcdnwimages.azureedge.net/images/products/975000/975051-600x600-A.jpg","Whole Bean "));
+        AllGroceryItems.add(new GroceryItem("Cottage Cheese","Snacks/Sides","https://cutpcdnwimages.azureedge.net/images/products/65000/068026-600x600-A.jpg","Fat Free"));
         AllGroceryItems.add(new GroceryItem("Cups","Non-Food","https://i5.walmartimages.com/asr/34962f31-b7bb-45ef-8688-d0bc353cf9c9_1.a85af9c9f7f546e9f4fae44db96aafc5.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"," "));
         AllGroceryItems.add(new GroceryItem("Deli Meat","Sandwich","https://cutpcdnwimages.azureedge.net/images/products/95000/099114-600x600-A.jpg","Everroast Chicken "));
         AllGroceryItems.add(new GroceryItem("Deodorant","Non-Food","https://cutpcdnwimages.azureedge.net/images/products/180000/180598-600x600-A.jpg"," "));
@@ -83,19 +85,25 @@ public class GroceryItemController {
         AllGroceryItems.add(new GroceryItem("Nuts","Snacks/Sides","https://cutpcdnwimages.azureedge.net/images/products/15000/019101-600x600-A.jpg","Mixed Nuts"));
         AllGroceryItems.add(new GroceryItem("Nuts","Snacks/Sides","https://cutpcdnwimages.azureedge.net/images/products/15000/018575-600x600-A.jpg","Cashews"));
         AllGroceryItems.add(new GroceryItem("Paper Towels","Non-Food","https://cutpcdnwimages.azureedge.net/images/products/890000/893496-600x600-A.jpg","8 Pack"));
+        AllGroceryItems.add(new GroceryItem("Peanut Butter Crackers","Snacks/Sides","https://cutpcdnwimages.azureedge.net/images/products/300000/304758-600x600-A.jpg"," "));
+        AllGroceryItems.add(new GroceryItem("Peanut Butter","Snacks/Sides","https://cutpcdnwimages.azureedge.net/images/products/10000/010093-600x600-A.jpg","Smuckers"));
         AllGroceryItems.add(new GroceryItem("Pomegranate Juice","Drinks","https://cutpcdnwimages.azureedge.net/images/products/20000/023033-600x600-A.jpg"," "));
         AllGroceryItems.add(new GroceryItem("Powerade","Drinks","https://cutpcdnwimages.azureedge.net/images/products/305000/306745-600x600-A.jpg","Fruit Punch"));
         AllGroceryItems.add(new GroceryItem("Powerade","Drinks","https://cutpcdnwimages.azureedge.net/images/products/315000/316501-600x600-A.jpg","Blue"));
         AllGroceryItems.add(new GroceryItem("Shaving Cream","Non-Food","https://cutpcdnwimages.azureedge.net/images/products/35000/037765-600x600-A.jpg","Gillette"));
+        AllGroceryItems.add(new GroceryItem("Soap Refill","Non-Food","https://cutpcdnwimages.azureedge.net/images/products/225000/228549-600x600-A.jpg","Moisturizing Soap"));
         AllGroceryItems.add(new GroceryItem("Soda","Drinks","https://images.bonanzastatic.com/afu/images/985c/c0f3/99c6_10474300684/s-l1600.jpg","Vanilla Coke"));
         AllGroceryItems.add(new GroceryItem("Soda","Drinks","https://cutpcdnwimages.azureedge.net/images/products/330000/330057-600x600-A.jpg","Coke"));
         AllGroceryItems.add(new GroceryItem("Soup","Snacks/Sides","https://cutpcdnwimages.azureedge.net/images/products/875000/878606-600x600-A.jpg","Chicken and Sausage Gumbo"));
         AllGroceryItems.add(new GroceryItem("Soup","Snacks/Sides","https://cutpcdnwimages.azureedge.net/images/products/230000/234797-600x600-A.jpg","Chili Mac"));
+        AllGroceryItems.add(new GroceryItem("Soup","Snacks/Sides","https://cutpcdnwimages.azureedge.net/images/products/235000/235985-600x600-A.jpg","Minestrone"));
+        AllGroceryItems.add(new GroceryItem("Soup","Snacks/Sides","https://cutpcdnwimages.azureedge.net/images/products/210000/210967-600x600-A.jpg","Thai"));
+        AllGroceryItems.add(new GroceryItem("Tea","Drinks","https://cutpcdnwimages.azureedge.net/images/products/395000/399666-600x600-A.jpg","Lemon Ginger"));
         AllGroceryItems.add(new GroceryItem("Tissues","Non-Food","https://cutpcdnwimages.azureedge.net/images/products/885000/886021-600x600-A.jpg"," "));
         AllGroceryItems.add(new GroceryItem("Toothpaste","Non-Food","https://cutpcdnwimages.azureedge.net/images/products/45000/046869-600x600-A.jpg","Crest"));
         AllGroceryItems.add(new GroceryItem("Tortillas","Sandwich","https://cutpcdnwimages.azureedge.net/images/products/105000/108778-600x600-A.jpg"," "));
         AllGroceryItems.add(new GroceryItem("Tuna","Sandwich","https://cutpcdnwimages.azureedge.net/images/products/5000/006485-600x600-A.jpg"," "));
-
+        AllGroceryItems.add(new GroceryItem("Water","Drinks","https://cutpcdnwimages.azureedge.net/images/products/10000/014598-600x600-A.jpg"," "));
 
 
 
